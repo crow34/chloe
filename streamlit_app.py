@@ -15,7 +15,7 @@ with st.sidebar:
     - [my name is chloe)
     - [i am a personnel assistant from martin wood]
     - [OpenAssistant/oasst-sft-6-llama-30b-xor] LLM model
-    i have over 30 billion parameters
+   
     ''')
     add_vertical_space(5)
     st.write('Made with ❤️ by martin wood')
@@ -30,7 +30,7 @@ if 'past' not in st.session_state:
 
 # Layout of input/response containers
 input_container = st.container()
-colored_header(label='', description='', color_name='blue-30')
+colored_header(label='', description='', color_name='black-30')
 response_container = st.container()
 
 # User input
